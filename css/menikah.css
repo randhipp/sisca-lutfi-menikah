@@ -39,8 +39,8 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hermansyah-7uXn7nudorc-unsplash.jpg&w=1920");
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://images.unsplash.com/photo-1506477331477-33d5d8b3dc85?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=hermansyah-7uXn7nudorc-unsplash.jpg&w=1920") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -53,8 +53,8 @@ html {
 .hero .title {
   font-family: 'Cookie', 'cursive' ,'sans-serif';
   font-weight: 500;
-  transform: rotate(-2deg);
-  font-size: 5rem;
+  transform: rotate(-3deg);
+  font-size: 4rem;
   padding-bottom: 5px;
   color: whitesmoke;
 }
@@ -311,7 +311,6 @@ html {
   color: #996E6D;
   font-size: 3.5rem;
   letter-spacing: 0px;
-  padding-bottom: 6px;
   line-height: 3.7rem;
 }
 
@@ -326,6 +325,12 @@ vertical-align: middle;
 
 .bodytext {
   font-size: 18px;
+}
+
+.nama-ortu {
+  font-size: 14px;
+  padding-top: -10px;
+  padding-bottom: 6px;
 }
 
 .waktu {
@@ -660,4 +665,9 @@ body.preloader-site {
   vertical-align: middle;
   text-align: center;
   padding: 10px;
+}
+
+
+.footer-link {
+  color: #1d1111;
 }
